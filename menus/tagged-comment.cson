@@ -1,0 +1,10 @@
+'menu': [
+  'label': 'Packages'
+  'submenu': [
+    'label': 'Tag Comment'
+    'submenu': [
+      { 'label': 'Tag', 'command': 'tagged-comment:tag' }
+      { 'label': 'Re-Tag', 'command': 'tagged-comment:re-tag' }
+    ]
+  ]
+]

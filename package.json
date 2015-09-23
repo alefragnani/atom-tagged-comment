@@ -1,0 +1,31 @@
+{
+  "name": "tagged-comment",
+  "main": "./lib/tagged-comment",
+  "version": "0.0.0",
+  "description": "Add tagged comments to your code",
+  "activationCommands": {
+    "atom-workspace": [
+      "tagged-comment:tag",
+      "tagged-comment:re-tag"
+    ]
+  },
+  "repository": "https://github.com/alefragnani/atom-tagged-comment",
+  "license": "MIT",
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.0",
+    "temp": "^0.8.1",
+    "text-buffer": "6.6.1"
+  },
+  "keywords": [
+    "tag",
+    "tagged",
+    "comment",
+    "template"
+  ],
+  "engines": {
+    "atom": "*"
+  },
+  "devDependencies": {
+    "coffeelint": "^1.9.7"
+  }
+}
