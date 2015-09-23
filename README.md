@@ -8,11 +8,11 @@ It also detects the current language and uses the appropriate comment pattern.
 
 ### Type your tag
 
-![Enter Text](screenshot-enter-text.png)
+![Enter Text](https://raw.githubusercontent.com/alefragnani/atom-tagged-comment/master/screenshot-enter-text.png)
 
 ### Comment automatically added
 
-![Comment Added](screenshot-comment-added.png)
+![Comment Added](https://raw.githubusercontent.com/alefragnani/atom-tagged-comment/master/screenshot-comment-added.png)
 
 ## Available Variables
 
