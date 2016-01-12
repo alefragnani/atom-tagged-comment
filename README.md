@@ -49,3 +49,7 @@ The default template just adds the current date:
 ## Participate
 
 If you have any idea, feel free to create issues and pull requests
+
+## License
+
+[MIT](LICENSE.md) &copy; Alessandro Fragnani
