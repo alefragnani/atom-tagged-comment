@@ -12,9 +12,7 @@
   "repository": "https://github.com/alefragnani/atom-tagged-comment",
   "license": "MIT",
   "dependencies": {
-    "atom-space-pen-views": "^2.0.0",
-    "temp": "^0.8.1",
-    "text-buffer": "6.6.1"
+    "atom-space-pen-views": "^2.0.0"
   },
   "keywords": [
     "tag",

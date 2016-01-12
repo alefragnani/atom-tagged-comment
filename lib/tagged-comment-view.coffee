@@ -1,6 +1,5 @@
 {$, TextEditorView, View} = require 'atom-space-pen-views'
 {BufferedProcess} = require 'atom'
-{Range} = require 'text-buffer'
 
 module.exports =
 class TaggedCommentView extends View
@@ -42,10 +41,10 @@ class TaggedCommentView extends View
 
   setTagText: (placeholderName, rangeToSelect) ->
     editor = @miniEditor.getModel()
-    rangeToSelect ?= [0, placeholderName.length]    
+    rangeToSelect ?= [0, placeholderName.length]
     @lastEnteredText = atom.config.get('tagged-comment.lastEnteredText')
     @tagString = atom.config.get('tagged-comment.tagString')
-    editor.setText(atom.config.get('tagged-comment.lastEnteredText'))    
+    editor.setText(atom.config.get('tagged-comment.lastEnteredText'))
     textLength = editor.getText().length
     editor.setSelectedBufferRange([[0, textLength]])
 
@@ -63,21 +62,21 @@ class TaggedCommentView extends View
       @addTagToEditor(@text)
     else
       @tag()
-    
+
   addTagToEditor: (comment) ->
-    @editor = atom.workspace.getActiveTextEditor()  
-    
+    @editor = atom.workspace.getActiveTextEditor()
+
     scope = @editor.scopeDescriptorForBufferPosition([0, 0])
     commentStartEntry = atom.config.getAll('editor.commentStart', {scope})[0]
-    
+
     if commentStartEntry?
       comment = @editor.insertText(commentStartEntry?.value + comment)
-    else    
+    else
       comment = @editor.insertText(comment)
-    # @editor.insertText(commentStartEntry?.value) if commentStartEntry?   
+    # @editor.insertText(commentStartEntry?.value) if commentStartEntry?
     # @editor.insertText(comment)
 
-    
+
   getComment: (text) ->
     aDate = new Date
     if aDate.getDate().toString().length == 1
@@ -91,12 +90,12 @@ class TaggedCommentView extends View
       month = "#{aDate.getMonth()}"
 
     year = aDate.getFullYear()
-    
+
     @theTagString = atom.config.get('tagged-comment.tagString')
 
     @result = @theTagString.replace "#day", day
     @result = @result.replace "#month", month
     @result = @result.replace "#year", year
     @result = @result.replace "#enteredText", text
-    
+
     return @result

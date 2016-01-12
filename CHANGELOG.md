@@ -1,3 +1,6 @@
+## 0.3.1 - Fix Installation Issue
+* Fixes #1
+
 ## 0.3.0 - License updated
 * License updated
 
