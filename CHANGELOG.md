@@ -1,3 +1,6 @@
+## 0.4.0 - Donation button
+* Donation button added
+
 ## 0.3.1 - Fix Installation Issue
 * Fixes #1
 
