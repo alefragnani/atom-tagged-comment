@@ -39,13 +39,6 @@ The default template just adds the current date:
 #day/#month/#year - ISSUE: #enteredText
 ```
 
-## TODO List
-
-- Add more variables
-- Define a default comment character for _non-language_ files
-- Live preview for the tagged comment while typing
-- Add tagged comment above selected lines
-
 ## Participate
 
 If you have any idea, feel free to create issues and pull requests
@@ -56,4 +49,4 @@ If you have any idea, feel free to create issues and pull requests
 
 ---
 
-[![Paypal Donations](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=EP57F3B6FXKTU&lc=US&item_name=Alessandro%20Fragnani&item_number=atom%20plugins&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted) if you enjoy using this plugin :smile:
+[![Paypal Donations](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=EP57F3B6FXKTU&lc=US&item_name=Alessandro%20Fragnani&item_number=atom%20plugins&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted) a :coffee: if you enjoy using this package :wink:
