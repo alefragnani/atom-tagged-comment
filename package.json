@@ -1,7 +1,7 @@
 {
   "name": "tagged-comment",
   "main": "./lib/tagged-comment",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Add tagged comments to your code",
   "activationCommands": {
     "atom-workspace": [
