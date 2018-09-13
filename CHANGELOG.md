@@ -1,3 +1,6 @@
+## 0.5.0 - Patreon button
+* Patreon button added
+
 ## 0.4.0 - Donation button
 * Donation button added
 
