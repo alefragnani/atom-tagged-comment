@@ -1,5 +1,7 @@
 # Tagged Comment Package for Atom
 
+> Following Atom archiving in December 15, 2022, this package will be archived as well. Learn more in their [official announcement](https://github.blog/2022-06-08-sunsetting-atom/)
+
 An easy way to add personalized comments to your code
 
 Set your own template for the comment and use _variables_ for richer content. You can even _re-tag_ a comment, adding the previously used tag.
